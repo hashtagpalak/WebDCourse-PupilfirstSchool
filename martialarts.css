@@ -1,0 +1,102 @@
+h2{
+    background:linear-gradient(to right, #0bd6fa, #55f1f7, #86FAF2);
+    width:97%;   
+    height: 5%;
+    margin-top: 2px;
+    position: absolute;
+    display: inline-block;
+    padding: 9px;
+    color: black;
+    text-align: center;
+    word-spacing: 5px;
+   
+
+}
+/*  -- Container -- */
+.ctr {
+    max-width: 100%;
+    text-align: center;
+    margin: 0px;
+
+  }
+.bg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+/* -- background color -- */
+body {
+  background: linear-gradient(to right, #000000, #202020, #656565); color:#cdcdcd;
+}
+
+/* Background Image  --> Adjusted width of absolute image */
+.bg-img {
+    position: absolute;
+    margin-top: 5.5%;
+    z-index: -1;
+}
+  
+canvas {
+  z-index: 5;
+}
+  
+/* -- Control decoration -- */
+.controls{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    align-content: center;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: cyan ;
+    width:82%;   
+    height: 4%;
+    margin-left: 7.5%;
+    position: absolute;
+}
+
+/* -- Animations Buttons -- */
+.animation-buttons {
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.2%;
+    align-content: center;
+  }
+  
+.btn{
+    box-shadow: 0 2px 2px 2px whitesmoke;
+    background-color: transparent;
+    border: 3px solid white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    padding: 10px 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 5% 20px;
+  }
+
+/* -- Footer -- */
+.icons{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.2%;
+    margin-left: 0%;
+    align-content: center;
+}
+
+.fab{
+    color: white;
+    margin-left: 1%;
+    margin-top: 5px;
+    padding: 5px 5px;
+    justify-content: center;
+    font-display: flex;
+    text-align: center;
+    
+}
+.fab:hover{
+    color: cyan;
+}
