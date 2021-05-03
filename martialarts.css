@@ -52,6 +52,7 @@ canvas {
     background-color: cyan ;
     width:82%;   
     height: 4%;
+    margin-top: 0.3%;
     margin-left: 7.5%;
     position: absolute;
 }
